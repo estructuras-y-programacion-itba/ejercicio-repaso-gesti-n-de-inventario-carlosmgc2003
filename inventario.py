@@ -139,8 +139,9 @@ def vender_productos(ruta, cantidad):
 # --- main -------------------------------------------------------------
 
 def main():
-  vender_productos("inventario.txt", "papa")
-  vender_productos("inventario.txt", 3)
+    print("Hola Mundo!")
+    vender_productos("inventario.txt", "papa")
+    vender_productos("inventario.txt", 3)
 
 
 if __name__ == "__main__":
